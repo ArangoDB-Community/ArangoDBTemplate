@@ -7,6 +7,7 @@ ArangoDB Template
 
 Template - Getting Started
 -----
+
 ..  toctree::
     :maxdepth: 3
     readme
@@ -16,6 +17,7 @@ Template - Getting Started
 
 ArangoDB - Possible Imports
 ----
+
 ..  toctree::
     :maxdepth: 3
     :ref: projects
