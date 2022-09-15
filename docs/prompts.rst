@@ -45,25 +45,25 @@ use_black
     Whether to use `black <https://pypi.org/project/black/>`_.
 
 use_pyArango
-    Whether to use `pyArango<https://github.com/ArangoDB-Community/pyArango>`_.
+    Whether to use `pyArango <https://github.com/ArangoDB-Community/pyArango>`_.
 
 use_arango
-    Whether to use `arango<https://pypi.org/project/arango/>`_.
+    Whether to use `arango <https://pypi.org/project/arango/>`_.
 
 use_python-arango
-    Whether to use `python-arango<https://github.com/ArangoDB-Community/python-arango>`_.
+    Whether to use `python-arango <https://github.com/ArangoDB-Community/python-arango>`_.
 
 use_arangopipe
-    Whether to use `arangopipe<https://github.com/arangoml/arangopipe>`_.
+    Whether to use `arangopipe <https://github.com/arangoml/arangopipe>`_.
 
 use_networkx_adapter
-    Whether to use `networkx-adapter<https://github.com/arangoml/networkx-adapter>`_.
+    Whether to use `networkx-adapter <https://github.com/arangoml/networkx-adapter>`_.
 
 use_oasis
-    Whether to use the `Oasis-Tool<https://github.com/arangodb/cloud>`_ to connect to this service.
+    Whether to use the `Oasis-Tool <https://github.com/arangodb/cloud>`_ to connect to this service.
 
 use_sphinx
-    Whether to use `Sphinx<https://pypi.org/project/Sphinx/>`_.
+    Whether to use `Sphinx <https://pypi.org/project/Sphinx/>`_.
 
 create_author_file
     Whether to create an authors file, or not
