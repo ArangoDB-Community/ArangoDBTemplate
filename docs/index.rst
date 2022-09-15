@@ -6,10 +6,10 @@ Template - Getting Started
 -----
 ..  toctree::
     :maxdepth: 3
-    readme
-    tutorial
-    prompts
-    PyArangoReadme
+    readme.rst
+    tutorial.rst
+    prompts.rst
+    PyArangoReadme.rst
 
 ArangoDB - Possible Imports
 ----
