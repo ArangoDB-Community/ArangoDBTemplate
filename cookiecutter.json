@@ -1,6 +1,6 @@
 {
-  "full_name": "Felix Riemen",
-  "email": "f.riemen@outlook.com",
+  "full_name": "FirstName LastName",
+  "email": "yourname@email.com",
   "github_username": "ferie24",
   "project_name": "ArangoDBProject",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
