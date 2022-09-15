@@ -15,8 +15,7 @@ if __name__ == '__main__':
     if '{{ cookiecutter.create_PyPI_package}}' != 'y':
         remove_file('setup.py')
 
-    if '{{ cookiecutter.include_notebooks}}' != 'y':
-        shutil.rmtree('notebooks')
+    shutil.rmtree('docs')
 
     if '{{ cookiecutter.import_IMDB_Movie_Graph}}' != 'y':
         shutil.rmtree('IMDB_Movie_Graph')

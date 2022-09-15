@@ -17,7 +17,6 @@
   "create_author_file": "y",
   "import_IMDB_Movie_Graph": "y",
   "create_PyPI_package": "y",
-  "include_notebooks": "y",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
   "_new_lines": "\n"
 }
