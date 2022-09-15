@@ -14,7 +14,7 @@ ArangoDB - Possible Imports
 ----
 ..  toctree::
     :maxdepth: 3
-    projects
+    :ref: projects
 
 
 Indices and tables
