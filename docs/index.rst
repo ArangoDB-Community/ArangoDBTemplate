@@ -5,10 +5,11 @@ ArangoDB Template
 Template - Getting Started
 -----
 ..  toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     readme
     tutorial
     prompts
+    PyArangoReadme
 
 ArangoDB - Possible Imports
 ----
