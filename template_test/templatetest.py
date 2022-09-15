@@ -9,7 +9,7 @@ cookies = plugin.Cookies(template=template, output_factory=None, config_file=Non
 def test_readme(cookies):
     # cookies.bake creates a temporary version of this template
     result = cookies.bake(template=template)
-    readme_file = result.project_path / 'README.md'
+    readme_file = result.project_path / 'README.rst'
     readme_lines = readme_file.read_text().splitlines()
     assert readme_lines[0] == "# ArangoML FeatureStore"
 
