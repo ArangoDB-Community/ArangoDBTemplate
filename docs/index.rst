@@ -7,3 +7,4 @@ Template - Getting Started
 
 .. toctree::
     reference
+    secondReference
