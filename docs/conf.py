@@ -10,7 +10,7 @@ extensions = [
     'sphinx.ext.viewcode',
 ]
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['_templates', 'docs']
 
 source_suffix = '.rst'
 
@@ -153,7 +153,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'ArangoMLFeatureStore-CookieTemplate.tex', 'ArangoMLFeatureStore-CookieTemplate Documentation',
+  (master_doc, 'ArangoDBTemplate', 'ArangoDBTemplate Documentation',
    'Felix Riemen', 'manual'),
 ]
 
