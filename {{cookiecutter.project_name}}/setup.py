@@ -45,7 +45,7 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}',
     project_urls={
-        "Bug Tracker": "https://github.com/ferie24/ArangoDBTemplate",
+        "Bug Tracker": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
     },
     python_requires='>=3.7',
     classifiers=[
