@@ -4,6 +4,6 @@
 {%- if cookiecutter.data_science_adapter|lower == 'networkx_adapter' %} adbnx-adapter>=4.2.0, {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.data_science_adapter|lower == 'pyg_adapter' %} adbpyg-adapter>=4.2.0, {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.data_science_adapter|lower == 'dgl_adapter' %} adbdgl-adapter>=4.2.0, {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.use_sphinx|lower == 'y' %} requests>=5.1.1, {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.use_sphinx|lower == 'y' %} sphinx>=5.1.1, {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.use_tutorial_connector|lower == 'y' %} adb-cloud-connector>=1.0.2, {{cookiecutter._new_lines}} {%- endif %}
 

@@ -18,14 +18,13 @@ install_requirements = [
 {%- if cookiecutter.data_science_adapter|lower == 'pyg_adapter' %} 'adbpyg-adapter>=1.0.0', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.data_science_adapter|lower == 'dgl_adapter' %} 'adbdgl-adapter>=2.1.0', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.use_tutorial_connector|lower == 'y' %} 'adb-cloud-connector>=1.0.2', {{cookiecutter._new_lines}} {%- endif %}
-
 ]
 
 
 dev_requirements = [
 {%- if cookiecutter.use_black|lower == 'y' %} 'black>=22.8.0', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.use_pytest|lower == 'y' %} 'pytest>=7.1.3', {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.use_sphinx|lower == 'y' %} 'requests>=5.1.1', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.use_sphinx|lower == 'y' %} 'sphinx>=5.1.1', {{cookiecutter._new_lines}} {%- endif %}
 ]
 
 {%- set license_classifiers = {
