@@ -1,7 +1,7 @@
 -----
 Projects
 -----
-..  doctree::
+..  toctree::
     :maxdepth: 2
     arangopipeReadme.md
     PyArangoReadme.rst
