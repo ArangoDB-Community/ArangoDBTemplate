@@ -13,13 +13,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
 requirements = [
 {%- if cookiecutter.use_black|lower == 'y' %} 'black>=22.8.0', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.use_pytest|lower == 'y' %} 'pytest>=7.1.3', {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.use_pyArango|lower == 'y' %} 'pyArango>=2.0.1', {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.use_arango|lower == 'y' %} 'arango>=0.2.1', {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.use_python_arango|lower == 'y' %} 'python-arango>=7.4.1', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.oasis_connection|lower == 'python_arango' %} 'pyArango>=2.0.1', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.oasis_connection|lower == 'pyarango' %} 'python-arango>=7.4.1', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.use_arangopipe|lower == 'y' %} 'arangopipe>=0.0.70.0.1', {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.use_networkx_adapter|lower == 'y' %} 'adbnx-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.oasis_adapter|lower == 'networkx_adapter' %} 'adbnx-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.oasis_adapter|lower == 'cupgrah_adapter' %} 'adbnx-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.oasis_adapter|lower == 'pyg_adapter' %} 'adbpyg-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.oasis_adapter|lower == 'dgl_adapter' %} 'adbdgl-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.use_sphinx|lower == 'y' %} 'requests>=5.1.1', {{cookiecutter._new_lines}} {%- endif %}
 ]
 
+#the CUgraph adapter only does the networkx adapter because its not on pip
 test_requirements = [{%- if cookiecutter.use_pytest == 'y' %}'pytest>=3',{%- endif %} ]
 
 
