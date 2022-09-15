@@ -44,11 +44,38 @@ use_pytest
 use_black
     Whether to use `black <https://pypi.org/project/black/>`_.
 
-command_line_interface
-    Whether to create a console script using Click. Console script entry point will match the project_slug. Options: ['Click', 'Argparse', 'No command-line interface']
+use_pyArango
+    Whether to use `pyArango<https://github.com/ArangoDB-Community/pyArango>`_.
+
+use_arango
+    Whether to use `arango<https://pypi.org/project/arango/>`_.
+
+use_python-arango
+    Whether to use `python-arango<https://github.com/ArangoDB-Community/python-arango>`_.
+
+use_arangopipe
+    Whether to use `arangopipe<https://github.com/arangoml/arangopipe>`_.
+
+use_networkx_adapter
+    Whether to use `networkx-adapter<https://github.com/arangoml/networkx-adapter>`_.
+
+use_oasis
+    Whether to use the `Oasis-Tool<https://github.com/arangodb/cloud>`_ to connect to this service.
+
+use_sphinx
+    Whether to use `Sphinx<https://pypi.org/project/Sphinx/>`_.
 
 create_author_file
-    Whether to create an authors file
+    Whether to create an authors file, or not
+
+import_IMDB_Movie-Graph
+    Whether to import this pre build project or not, it can also be found in `this <>`_ notebook.
+
+create_PyPI_package
+    Whether to import the basics needed for to create and upload a PyPI package
+
+include_notebooks
+    Whether to include some explanatory Notebooks for the packages mentioned above.
 
 open_source_license
     Choose a `license <https://choosealicense.com/>`_. Options: [1. MIT License, 2. BSD license, 3. ISC license, 4. Apache Software License 2.0, 5. GNU General Public License v3, 6. Not open source]
