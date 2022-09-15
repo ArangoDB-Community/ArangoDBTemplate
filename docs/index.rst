@@ -9,4 +9,3 @@ Template - Getting Started
     reference
     secondReference
     thirdreference
-    PyArangoReadme
