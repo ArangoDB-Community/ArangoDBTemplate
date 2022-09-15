@@ -15,8 +15,8 @@ install_requirements = [
 {%- if cookiecutter.python_driver|lower == 'python_arango' %} 'python-arango>=7.4.1', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.use_arangopipe|lower == 'y' %} 'arangopipe>=0.0.70.0.1', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.data_science_adapter|lower == 'networkx_adapter' %} 'adbnx-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.data_science_adapter|lower == 'pyg_adapter' %} 'adbpyg-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
-{%- if cookiecutter.data_science_adapter|lower == 'dgl_adapter' %} 'adbdgl-adapter>=4.2.0', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.data_science_adapter|lower == 'pyg_adapter' %} 'adbpyg-adapter>=1.0.0', {{cookiecutter._new_lines}} {%- endif %}
+{%- if cookiecutter.data_science_adapter|lower == 'dgl_adapter' %} 'adbdgl-adapter>=2.1.0', {{cookiecutter._new_lines}} {%- endif %}
 {%- if cookiecutter.use_tutorial_connector|lower == 'y' %} 'adb-cloud-connector>=1.0.2', {{cookiecutter._new_lines}} {%- endif %}
 
 ]
