@@ -16,3 +16,7 @@ Python-Arango
 ----
 .. toctree::
     Python_ArangoReadme
+
+Networkx-Adapter
+----
+.. toctree::
