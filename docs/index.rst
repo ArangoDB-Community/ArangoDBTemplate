@@ -2,11 +2,11 @@
 ArangoDB Template
 --------
 
-Template - Getting Starated
+Template - Getting Started
 -----
 ..  toctree::
     :maxdepth: 2
-    :ref: readme
+    readme
     tutorial
     prompts
 
