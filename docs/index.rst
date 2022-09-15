@@ -1,8 +1,8 @@
 ======
-Test
+ArangoDB Template
 ======
 
-SubTest
+Template - Getting Started
 -----
 
 .. toctree::
