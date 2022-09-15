@@ -1,7 +1,7 @@
 import sys
 import os
 import shlex
-import strftime
+
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
