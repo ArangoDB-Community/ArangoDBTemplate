@@ -5,7 +5,7 @@ Projects
 ArangoPipe
 ----
 ..  toctree::
-    arangopipeReadme
+    ArangopipeReadme
 
 PyArango
 ----
