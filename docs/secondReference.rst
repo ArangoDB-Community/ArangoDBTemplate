@@ -6,3 +6,4 @@ ArangoPipe
 ----
 ..  toctree::
     PyArangoReadme
+    arangopipeReadme
