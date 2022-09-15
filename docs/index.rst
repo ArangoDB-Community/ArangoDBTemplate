@@ -4,8 +4,10 @@ ArangoDB Template
 
 Template - Getting Started
 -----
+Installing the template
 
 .. toctree::
     reference
-    secondReference
     prompts
+    secondReference
+
