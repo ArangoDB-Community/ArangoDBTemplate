@@ -11,7 +11,7 @@
   "use_black": "y",
   "use_arangopipe": "y",
   "python_driver": ["Python_arango", "PyArango", "none"],
-  "data_science_adapter": ["NetworkX_Adapter", "Cugraph_adapter", "pyg_adapter", "dgl_adapter", "none"],
+  "data_science_adapter": ["NetworkX_Adapter", "pyg_adapter", "dgl_adapter", "none"],
   "use_tutorial_connector": "y",
   "use_sphinx": "y",
   "create_author_file": "y",
