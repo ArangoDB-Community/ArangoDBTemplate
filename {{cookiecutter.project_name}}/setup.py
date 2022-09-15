@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-with open("README.rst", "r", encoding="utf-8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 install_requirements = [
@@ -70,7 +70,7 @@ setup(
     include_package_data=True,
     #-----
 
-    install_requires=requirements,
+    install_requires=install_requirements,
     test_suite='tests',
     extras_require={
         'dev' : dev_requirements
