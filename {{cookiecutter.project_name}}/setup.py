@@ -45,7 +45,7 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}',
     project_urls={
-        "Bug Tracker": "https://github.com/rajivsam/arangomlFeatureStore",
+        "Bug Tracker": "https://github.com/ferie24/ArangoDBTemplate",
     },
     python_requires='>=3.7',
     classifiers=[
@@ -64,8 +64,6 @@ setup(
     keywords='{{ cookiecutter.project_slug }}',
     package_dir={'{{ cookiecutter.project_slug }}' : '{{ cookiecutter.project_slug }}'},
     packages=find_packages(include=['{{ cookiecutter.project_slug }}', '{{ cookiecutter.project_slug }}.*']),
-    package_data={'config': ['config/arango_feature_store_config.yaml']},
-
     include_package_data=True,
     #-----
 
