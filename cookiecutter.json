@@ -11,7 +11,7 @@
   "use_black": "y",
   "use_arangopipe": "y",
   "oasis_connection": ["Python_arango", "PyArango"],
-  "oasis_adapter": ["NetworkX_Adapter", "Cupgrah_adapter", "pyg_adapter", "dgl_adapter"],
+  "oasis_adapter": ["NetworkX_Adapter", "Cupgraph_adapter", "pyg_adapter", "dgl_adapter"],
   "use_oasis": "y",
   "use_sphinx": "y",
   "create_author_file": "y",

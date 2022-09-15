@@ -44,20 +44,18 @@ use_pytest
 use_black
     Whether to use `black <https://pypi.org/project/black/>`_.
 
-use_pyArango
-    Whether to use `pyArango <https://github.com/ArangoDB-Community/pyArango>`_.
-
-use_arango
-    Whether to use `arango <https://pypi.org/project/arango/>`_.
-
-use_python-arango
-    Whether to use `python-arango <https://github.com/ArangoDB-Community/python-arango>`_.
+oasis_connection
+    Choose the Oasis connection of your preference for this project, `pyArango <https://github.com/ArangoDB-Community/pyArango>`_ or  `python-arango <https://github.com/ArangoDB-Community/python-arango>`_.
 
 use_arangopipe
     Whether to use `arangopipe <https://github.com/arangoml/arangopipe>`_.
 
-use_networkx_adapter
-    Whether to use `networkx-adapter <https://github.com/arangoml/networkx-adapter>`_.
+oasis_adapter
+    Choose the Oasis adapter to choose, the choices are:
+    `networkx-adapter <https://github.com/arangoml/networkx-adapter>`_
+    `Cupgraph-adapter <https://github.com/arangoml/cugraph-adapter>`_
+    `pyg-adapter <https://github.com/arangoml/pyg-adapter>`_
+    `dgl-adapter <https://github.com/arangoml/dgl-adapter>`_
 
 use_oasis
     Whether to use the `Oasis-Tool <https://github.com/arangodb/cloud>`_ to connect to this service.
@@ -69,7 +67,7 @@ create_author_file
     Whether to create an authors file, or not
 
 import_IMDB_Movie-Graph
-    Whether to import this pre build project or not, it can also be found in `this <>`_ notebook.
+    Whether to import this pre build project, or not.
 
 create_PyPI_package
     Whether to import the basics needed for to create and upload a PyPI package
