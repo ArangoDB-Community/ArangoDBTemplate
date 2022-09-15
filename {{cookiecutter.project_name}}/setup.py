@@ -47,7 +47,7 @@ setup(
     project_urls={
         "Bug Tracker": "https://github.com/rajivsam/arangomlFeatureStore",
     },
-    python_requires='>=3.6',
+    python_requires='>=3.7',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
@@ -75,9 +75,4 @@ setup(
         'dev' : dev_requirements
     },
     zip_safe=False,
-    #entry_points={
-    #    'console_scripts': [
-    #        '{{ cookiecutter.project_slug }}={{ cookiecutter.project_slug }}.cli:main',
-    #    ],
-    #},
 )
