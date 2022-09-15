@@ -9,5 +9,5 @@ Installing the template
 .. toctree::
     reference
     prompts
-    secondReference
+    projects
 
