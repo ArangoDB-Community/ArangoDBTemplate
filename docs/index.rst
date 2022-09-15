@@ -6,4 +6,4 @@ SubTest
 -----
 
 .. toctree::
-    Cake
+    reference
