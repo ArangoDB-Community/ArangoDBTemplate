@@ -6,7 +6,7 @@ Template - Getting Started
 -----
 ..  toctree::
     :maxdepth: 2
-    readme
+    :ref: readme
     tutorial
     prompts
 
