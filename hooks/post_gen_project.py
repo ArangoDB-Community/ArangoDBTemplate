@@ -12,9 +12,6 @@ if __name__ == '__main__':
     if '{{ cookiecutter.create_author_file }}' != 'y':
         remove_file('AUTHORS.rst')
 
-    if '{{ cookiecutter.use_oasis }}' != 'y':
-        remove_file('{{cookiecutter.project_slug}}/oasis.py')
-
     if '{{ cookiecutter.create_PyPI_package}}' != 'y':
         remove_file('setup.py')
 
