@@ -5,4 +5,4 @@ Projects
 ArangoPipe
 ----
 ..  toctree::
-    thirdreference
+    PyArangoReadme
