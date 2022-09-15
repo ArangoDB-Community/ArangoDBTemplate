@@ -3,10 +3,10 @@ ArangoDB Template
 ======
 
 Template - Getting Started
------
-Installing the template
+----
+You need to have cookiecutter installed to
 
-.. toctree::
+..  toctree::
     :maxdepth: 2
     reference
     prompts
