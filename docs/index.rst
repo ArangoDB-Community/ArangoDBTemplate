@@ -2,7 +2,7 @@
 ArangoDB Template
 --------
 
-Template - Getting Started
+Template - Getting Starated
 -----
 ..  toctree::
     :maxdepth: 2
