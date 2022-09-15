@@ -6,3 +6,5 @@ ArangoDB Template
     :width: 300
     :alt: RTD_Link
     :target:  https://arangodbtemplate.readthedocs.io/en/latest/
+
+This is the Template that gets you started with your ArangoDB 
